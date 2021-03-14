@@ -1,0 +1,69 @@
+body {
+   
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+input[type="checkbox"]:checked {
+    background: #2a8b21;
+    border-color: #fff;
+    
+  }
+
+.font-checkbox {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+}
+
+.container {
+    padding: 7% 15%;
+}
+
+/* Top LayOut */
+
+.login-comment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-layout {
+    padding: 2rem;
+    margin-top: 5%;
+    box-sizing: border-box;
+    background-image: url("img/meals.jpg");
+    
+}
+
+.btn-signUp {
+    background-color: #ec5858;
+}
+
+form{
+    padding: 2%;
+}
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+   body
+   {
+       font-size:1rem;
+   }
+   .main-img 
+   {
+       margin-bottom: 3%;
+   }
+   .heading
+   {
+     font-size: 2rem;
+   }
+   
+  }
